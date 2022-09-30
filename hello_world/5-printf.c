@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 /**
- *main printf function
- *Description: prin function
+ *main - printf function
+ *
+ *Description: printf function
  *Return: return 0 to exit
  */
 
