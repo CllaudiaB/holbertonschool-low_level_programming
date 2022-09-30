@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Main function
  *
  * Return: Exit status code
