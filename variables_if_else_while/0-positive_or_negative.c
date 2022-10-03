@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- *main - Entry point
+ *main - Positive anything is better than negative nothing
  *
  *Return: Always 0 (Success)
  */
