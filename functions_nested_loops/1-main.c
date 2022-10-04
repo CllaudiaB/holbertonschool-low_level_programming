@@ -1,18 +1,13 @@
 #include "main.h"
 
 /**
- *function that prints the alphabet
+ *main -Printf alphabet
  *
- *Return: void
+ *Return: Always 0
  */
 
-void print_alphabet(void)
+int main(void)
 {
-	char alph;
-
-	for (alph = 'a'; alph <= 'z'; alph++)
-	{
-		_putchar(alph);
-	}
-	_putchar('\n');
+	print_alphabet();
+	return (0);
 }
