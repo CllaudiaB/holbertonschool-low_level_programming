@@ -2,7 +2,7 @@
 
 /**
  *print_sign -fonction that prints the sign of a number
- *
+ *@n: parameter of function
  *Return: 1 if n is greater than zero,0 if n is zero, -1 if n is less than zero
  */
 
