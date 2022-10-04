@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *Description: void print_alphabet(void) - fonction that print alphabet
+ *Description: print_alphabet(void) - fonction that print alphabet
  *
  *Return: void
  */
 
-print_alphabet(void)
+void print_alphabet(void)
 {
 	char alph;
 
