@@ -2,6 +2,7 @@
 
 /**
  *_isalpha - checks for alphabetic character
+ *@c: parameter of the fonction
  *
  *Return: 1 if letter, lowercase or uppercase, 0 otherwise
  */
