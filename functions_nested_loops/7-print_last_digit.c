@@ -9,10 +9,21 @@
 
 int print_last_digit(int n)
 {
-	int digit = 0;
-
-	digit = n % 10;
-	return (digit);
-	if (n == 0)
-		return (0);
+	int digit;
+	if (n > 0)
+	{
+		digit = n % 10;
+		return (digit);
+	}
+	else if (n == 0)
+	{
+		digit = 0;
+		return (digit);
+	}
+	else
+	{
+		n =n * (-1);
+		digit = n % 10;
+		return (digit);
+	}
 }
