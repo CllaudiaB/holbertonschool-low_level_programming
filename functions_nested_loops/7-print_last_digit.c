@@ -13,20 +13,16 @@ int print_last_digit(int n)
 	if (n > 0)
 	{
 		digit = n % 10;
-		_putchar(digit);
-		return (digit);
 	}
 	else if (n == 0)
 	{
 		digit = 0;
-		_putchar(digit);
-		return (digit);
 	}
 	else
 	{
-		n =n * (-1);
+		n = -n;
 		digit = n % 10;
-		_putchar(digit);
-		return (digit);
 	}
+	_putchar(digit);
+	return (digit);
 }
