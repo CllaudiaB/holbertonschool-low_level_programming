@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- *print_array -function that prints n elements of an array of integers, followed
- by a new line
+ *print_array -function that prints n elements of an array of integers,
+ * followed by a new line
  *@a: parameter of the function
  *@n: parameter of the function
  *Return: void
