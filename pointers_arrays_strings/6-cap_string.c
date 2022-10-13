@@ -13,7 +13,7 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] == 0 && s[i] >= 'a' && s[i] <= 'z')
+		if (s[0] && s[i] >= 'a' && s[i] <= 'z')
 			s[i] -= 32;
 		if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' ||
 		    s[i] == ',' || s[i] == ';' || s[i] == '.' ||
