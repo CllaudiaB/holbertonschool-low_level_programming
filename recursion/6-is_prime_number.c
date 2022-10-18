@@ -3,7 +3,7 @@
 /**
  *_prime - function that return if a number is prime
  *@x: parameter of the function
- *@x: parameter of the function
+ *@y: parameter of the function
  *
  *Return: int
  */
@@ -28,5 +28,5 @@ int _prime(int x, int y)
 
 int is_prime_number(int n)
 {
-	return(_prime(n, 2));
+	return (_prime(n, 2));
 }
