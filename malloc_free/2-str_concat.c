@@ -21,10 +21,10 @@ char *str_concat(char *s1, char *s2)
 		s1 = " ";
 	for (i = 0; s1[i] != '\0'; i++)
 	{
+		if (s1 == NULL)
+			s1 = "";
 		p[i] = s1[i];
 	}
-	if (s2 == NULL)
-		s2 = "";
 	for (j = 0; s2[j] != '\0'; j++)
 	{
 		if (s2 == NULL)
