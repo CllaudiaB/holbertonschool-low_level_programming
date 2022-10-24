@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 		p[i] = s1[i];
 	}
 	if (s2 == NULL)
-		s2 = " ";
+		s2 = "";
 	for (j = 0; s2[j] != '\0'; j++)
 	{
 		if (s2 == NULL)
