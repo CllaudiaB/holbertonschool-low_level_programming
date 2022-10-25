@@ -1,22 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
-
-/**
- *str_concat - str_concat
- *@s1: parameter of the function
- *@s2: parameter of teh function
- *
- *Return: char
- */
-
 /**
  *_len - foction calculate lenth of a string
  *@s: parameter of the function
  *
  *Return: int
  */
-
 
 
 int _len(char *s)
@@ -27,6 +17,15 @@ int _len(char *s)
 		i++;
 	return (i);
 }
+
+/**
+ *str_concat - function that concatenates two strings
+ *@s1: parameter of the function
+ *@s2: parameter of the function
+ *
+ *Return: char
+ */
+
 
 char *str_concat(char *s1, char *s2)
 {
