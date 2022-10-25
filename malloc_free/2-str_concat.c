@@ -13,7 +13,7 @@ int _len(char *s)
 {
 	int i = 0;
 
-	while (*s)
+	while (s[i] != '\0')
 		i++;
 	return (i);
 }
@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	len2 = _len(s2);
 	lent = len1 + len2;
 
-	p = malloc(sizeof(char) * lent);
+	p = malloc(sizeof(char) * lent + 1);
 	for (i = 0; i < len1; i++)
 	{
 		if (p == NULL)
