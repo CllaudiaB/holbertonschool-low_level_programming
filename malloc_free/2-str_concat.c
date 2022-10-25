@@ -10,7 +10,12 @@
  *Return: char
  */
 
-
+/**
+ *_len - foction calculate lenth of a string
+ *@s: parameter of the function
+ *
+ *Return: int
+ */
 
 
 
@@ -18,11 +23,8 @@ int _len(char *s)
 {
 	int i = 0;
 
-	while (*s != '\0')
-	{
-		s++;
+	while (s[i] != '\0')
 		i++;
-	}
 	return (i);
 }
 
