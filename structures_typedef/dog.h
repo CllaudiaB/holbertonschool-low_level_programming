@@ -22,7 +22,7 @@ void print_dog(struct dog *d);
  *dog_t - Type for struct dog
  */
 
-typedef struct dog
+typedef struct
 {
 	char *name;
 	float age;
