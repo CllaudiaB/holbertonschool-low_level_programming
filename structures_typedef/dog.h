@@ -19,7 +19,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
 /**
- *typedef struct dog_t - type
+ * struct dog_t - type
  *@name: First member
  *@age: Second member
  *@owner: Third member
