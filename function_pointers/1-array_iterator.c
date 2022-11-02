@@ -1,9 +1,10 @@
 #include "function_pointers.h"
 
 /**
- *array_iterator
+ *array_iterator - function that executes a function given as a parameter
+ * on each element of an array
  *@array: array to print
- *@size_t: size of array
+ *@size: size of array
  *@action: function pointer
  *
  *Return: void
