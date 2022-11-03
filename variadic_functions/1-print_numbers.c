@@ -26,10 +26,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			printf("%d", nb);
 			if (i < n - 1)
-				printf("%c", *separator);
+				printf("%c ", *separator);
 		}
-		else
-			return;
 	}
 	printf("\n");
 }
