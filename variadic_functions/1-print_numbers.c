@@ -28,7 +28,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			if (i < n - 1)
 				printf("%c ", *separator);
 		}
-		else
+		else if (separator == NULL || *separator == ' ')
 			printf("%d", nb);
 
 	}
