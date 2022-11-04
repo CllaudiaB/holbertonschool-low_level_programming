@@ -15,7 +15,7 @@ int main (int argc,char *argv[])
 	n1 = atoi(argv[1]);
 	n2 = atoi(argv[3]);
 	s = argv[2];
-	if (s == NULL || get_op_func(s) == NULL)
+	if (argv[2][1] != '\0' || get_op_func(s) == NULL)
 	{
 		printf("Error\n");
 		exit(99);
