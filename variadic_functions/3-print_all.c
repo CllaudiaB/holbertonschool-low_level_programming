@@ -4,7 +4,7 @@
 
 /**
  *print_c - function that print char
- *@a: parameter
+ *@arg: argument
  *
  *Return: void
  */
@@ -16,7 +16,7 @@ void print_c(va_list arg)
 
 /**
  *print_i - function that print int
- *@a: parameter of the function
+ *@arg: argument
  *
  *Return: void
  */
@@ -27,7 +27,7 @@ void print_i(va_list arg)
 
 /**
  *print_f - function thata print float
- *@a: parameter
+ *@arg: argument
  *
  *Return: void
  */
@@ -39,7 +39,7 @@ void print_f(va_list arg)
 
 /**
  *print_s - function that print string
- *@a: parameter
+ *@arg: argument
  *
  *Return: void
  */
@@ -50,7 +50,7 @@ void print_s(va_list arg)
 
 	ar = va_arg(arg, char *);
 	if (ar == NULL)
-	       ar = "nil";
+		ar = "(nil)";
 	printf("%s", ar);
 }
 
