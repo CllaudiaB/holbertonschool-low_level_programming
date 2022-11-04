@@ -28,8 +28,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		if (i < n - 1)
 			printf("%s", separator);
-		if (separator == NULL)
-			printf("%s ", esp);
+		if (separator == esp)
+			print("%s", string);
 		if (string == NULL)
 			printf("(nil)");
 
